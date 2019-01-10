@@ -1,4 +1,4 @@
-package com.rickxpc.springclouddemo.consulclient;
+package com.rickxpc.springcloud.consul;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
