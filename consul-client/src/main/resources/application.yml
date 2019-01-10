@@ -1,5 +1,5 @@
 server:
-  port: 6001
+  port: ${random.int[6000,7000]}
 
 spring:
   application:
@@ -8,3 +8,6 @@ spring:
     consul:
       host: localhost
       port: 8500
+      discovery:
+        instanceId: ${spring.application.name}-${random.value}
+#        serviceName: myservice-myprefix-${spring.application.name}
