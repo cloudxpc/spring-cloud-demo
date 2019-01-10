@@ -1,4 +1,6 @@
-# spring cloud consul
+[< index](https://cloudxpc.github.io/spring-cloud-demo)
+
+# Spring Cloud Consul
 
 ```xml
 <dependency>
